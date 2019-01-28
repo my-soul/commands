@@ -14,3 +14,13 @@ netstat -tunlp | grep 8080
 ``` bash
 whereis nginx
 ```
+
+## systemctl
+
+``` bash
+systemctl status service
+systemctl start service
+systemctl stop service
+systemctl restart service
+systemctl enable service
+```
