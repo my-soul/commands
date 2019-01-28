@@ -9,3 +9,8 @@ lsof -i:8080
 netstat -tunlp | grep 8080
 ```
 
+## 软件安装目录
+
+``` bash
+whereis nginx
+```
