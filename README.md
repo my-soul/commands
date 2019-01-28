@@ -8,6 +8,10 @@ lsof -i:8080
 
 netstat -tunlp | grep 8080
 ```
+## 查看进程占用的PID号
+```bash
+ps aux | grep 进程名 
+```
 
 ## 软件安装目录
 ``` bash
