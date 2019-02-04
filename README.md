@@ -41,3 +41,18 @@ free -m
 # cpu
 lscpu
 ```
+
+## rpm 
+```bash
+# 安装软件：执行rpm -ivh rpm包名，如：
+
+rpm -ivh apache-1.3.6.i386.rpm
+
+# 查询软件包的详细信息：执行
+rpm -qpi rpm包名
+```
+
+
+## centOS 安装mysql
+
+[Using the MySQL Yum Repository](https://dev.mysql.com/doc/mysql-yum-repo-quick-guide/en/)
