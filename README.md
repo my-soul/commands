@@ -56,3 +56,18 @@ rpm -qpi rpm包名
 ## centOS 安装mysql
 
 [Using the MySQL Yum Repository](https://dev.mysql.com/doc/mysql-yum-repo-quick-guide/en/)
+
+## jenkins 安装
+```bash
+sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo
+sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
+sudo yum install jenkins
+systemctl start jenkins # /usr/bin/java 需存在
+```
+
+## ln 连接
+```bash
+ln -s 原文件 目标文件 # 软连接
+ln 原文件 目标文件 # 硬连接
+```
+## node安装 [nvm](https://github.com/creationix/nvm#install-script)
