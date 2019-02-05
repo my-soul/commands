@@ -63,6 +63,10 @@ sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenk
 sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
 sudo yum install jenkins
 systemctl start jenkins # /usr/bin/java 需存在
+
+vim /etc/sysconfig/jenkins
+# 修改$JENKINS_USER，并去掉当前行注释
+$JENKINS_USER="root"
 ```
 
 ## ln 连接
