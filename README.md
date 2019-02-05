@@ -71,3 +71,25 @@ ln -s 原文件 目标文件 # 软连接
 ln 原文件 目标文件 # 硬连接
 ```
 ## node安装 [nvm](https://github.com/creationix/nvm#install-script)
+
+## svn install
+
+```bash
+yum install subversion
+
+mkdir -p /server/svn/chunk
+
+svnadmin create /server/svn/chunk
+
+cd /server/svn/repo/chunk/
+
+vim passwd 
+
+vim authz
+
+vim svnserve.conf
+
+vim /etc/sysconfig/svnserve
+
+systemctl start svnserve.service
+```
