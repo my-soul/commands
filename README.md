@@ -81,11 +81,11 @@ ln 原文件 目标文件 # 硬连接
 ```bash
 yum install subversion
 
-mkdir -p /server/svn/chunk
+mkdir -p /var/svn/repos
 
-svnadmin create /server/svn/chunk
+svnadmin create /var/svn/repos
 
-cd /server/svn/repo/chunk/
+cd /var/svn/repos/
 
 vim passwd 
 
