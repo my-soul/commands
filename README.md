@@ -95,5 +95,5 @@ vim svnserve.conf
 
 vim /etc/sysconfig/svnserve
 
-systemctl start svnserve.service
+systemctl start svnserve.service # not sasl
 ```
