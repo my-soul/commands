@@ -97,3 +97,7 @@ vim /etc/sysconfig/svnserve
 
 systemctl start svnserve.service # not sasl
 ```
+
+## 内网穿透[frp](https://github.com/fatedier/frp)
+
+cpu架构选择amd64
