@@ -101,3 +101,12 @@ systemctl start svnserve.service # not sasl
 ## 内网穿透[frp](https://github.com/fatedier/frp)
 
 cpu架构选择amd64
+
+## redis
+
+https://www.cnblogs.com/renzhicai/p/7773080.html
+
+## mysql redis 端口转发
+```bash
+ssh -L 3306:localhost:3306 -L 6379:localhost:6379  root@tx.shartem.com
+```
