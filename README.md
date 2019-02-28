@@ -69,6 +69,14 @@ vim /etc/sysconfig/jenkins
 $JENKINS_USER="root"
 ```
 
+## jdk
+
+```bash
+yum -y list java*
+yum -y install java-1.8.0-openjdk*
+
+```
+
 ## ln 连接
 ```bash
 ln -s 原文件 目标文件 # 软连接
